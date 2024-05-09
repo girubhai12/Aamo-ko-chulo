@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    position: relative;
+
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.cherryDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border-color: var(--pink);
+   
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    color: var(--themeRed);
+    font-weight: bold;
+    
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+.miniText{
+    width: 70%;
+    color: var(--gary);
+    font-weight: 600;
+}
+.btn{
+    padding: 1rem 2.5rem;
+    
+
+}
+
+.btn:hover{
+    background-color: red;
+    transform:scale(1.1);
+}
+
+
+.account{
+    letter-spacing: 1px;
+   
+}
+.signin{
+    display: flex;
+    }
+
+/* sign in part is used in /*/
+.sig{
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.sig:hover{
+    color: var(--themeRed);
+}
+.loc_placeholder{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+}
+.loc_placeholder>Image {
+    width: 24px; /* Set the width of the image */
+    height: 24px; /* Set the height of the image */
+    margin-right: 10px; /* Adjust spacing between the image and input */
+  }
+.loc_placeholder>input{
+    flex: 1;
+    border:none;
+    padding: 8px;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.right{
+    position: relative;
+}
+.imageContainer{
+    padding-top: 5rem;
+    width: 100%;
+    height:200px;
+    top: 5rem;
+    left: -5rem;
+    
+
+}
+.ContactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 5rem;
+    top: 0.2rem;
+    gap: 1rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    color: var(--themeRed);
+    left: 50rem;
+    
+}
+.ContactUs>div{
+    background: rgb(108, 255, 108);
+    border-radius: 50%;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8rem;
+
+
+}
+.ContactUs:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
